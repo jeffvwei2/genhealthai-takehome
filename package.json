@@ -1,0 +1,17 @@
+{
+  "name": "test-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently -n server,client -c magenta,cyan \"npm --prefix server start\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
