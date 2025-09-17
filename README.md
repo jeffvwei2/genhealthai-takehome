@@ -14,10 +14,6 @@ A full-stack application for extracting patient information from PDF documents u
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd test-proj
-   ```
 
 2. **Install system dependencies**
    
